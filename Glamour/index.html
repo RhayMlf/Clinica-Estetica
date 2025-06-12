@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estética Glamour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo Estética Glamour"> </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#ambientes">Ambientes</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h1>Bem-vindo à Estética Glamour</h1>
+                <p>Cuidando da sua beleza e bem-estar com paixão e excelência.</p>
+                <a href="#servicos" class="btn-primary">Conheça Nossos Serviços</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Sobre Nós</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="img/mulher.jpg" alt="Esteticista realizando procedimento"> </div>
+                    <div class="about-text">
+                        <h3>Nossa Missão</h3>
+                        <p>Na Estética Glamour, nossa missão é realçar a sua beleza natural, oferecendo tratamentos personalizados e de alta qualidade em um ambiente acolhedor e relaxante. Utilizamos as técnicas mais avançadas e produtos de ponta para garantir resultados excepcionais e a sua plena satisfação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <img src="img/mascara.jpg" alt="Serviço 1">
+                        <h3>Tratamentos Faciais</h3>
+                        <p>Limpeza de pele, hidratação profunda, peeling e muito mais para uma pele radiante.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/massagem.jpg" alt="Serviço 2">
+                        <h3>Massagens Terapêuticas</h3>
+                        <p>Massagens relaxantes, drenagem linfática e modeladora para seu bem-estar.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/laser.jpg" alt="Serviço 3">
+                        <h3>Depilação a Laser</h3>
+                        <p>Resultados duradouros e pele lisinha com tecnologia de ponta.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/sombrancelha.jpg" alt="Serviço 4">
+                        <h3>Design de Sobrancelhas</h3>
+                        <p>Realce seu olhar com um design personalizado e sofisticado.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/cuidado.jpg" alt="Serviço 5">
+                        <h3>Micropigmentação</h3>
+                        <p>Técnicas modernas para sobrancelhas, lábios e olhos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ambientes" class="environments-section">
+            <div class="container">
+                <h2 class="section-title">Nossos Ambientes</h2>
+                <div class="environment-grid">
+                    <div class="environment-item">
+                        <img src="img/lugar/salas.jpg" alt="Ambiente 1">
+                        <p>Nossas salas de atendimento são projetadas para oferecer conforto e privacidade.</p>
+                    </div>
+                    <div class="environment-item">
+                        <img src="img/lugar/recepção.jpg" alt="Ambiente 2">
+                        <p>Área de recepção moderna e aconchegante para seu relaxamento.</p>
+                    </div>
+                    <div class="environment-item">
+                        <img src="img/lugar/equipamento.jpg" alt="Ambiente 3">
+                        <p>Equipamentos de última geração em um ambiente esterilizado e seguro.</p>
+                    </div>
+                    <div class="environment-item">
+                        <img src="img/lugar/Smasagem.jpg" alt="Ambiente 4">
+                        <p>Espaços dedicados ao seu bem-estar e relaxamento total.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo-servico">Tipo de Serviço:</label>
+                        <input type="text" id="tipo-servico" name="tipo-servico">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/esteticaglamour" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/5531999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/esteticaglamour" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="localizacao" class="location-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Localização</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.5137172554369!2d-44.20699464028553!3d-19.446221632319276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa644d6e00dff93%3A0x7ae8bdd893f3e9a1!2sR.%20Sof%C3%ADa%20da%20Costa%20Leite%2C%20136%20-%20Monte%20Carlo%2C%20Sete%20Lagoas%20-%20MG%2C%2035701-411!5e0!3m2!1spt-BR!2sbr!4v1749142157365!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="address">Rua Sofia da Costa Leite, 136 - Sete Lagoas - MG, 35700-000</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo Estética Glamour"> </div>
+            <div class="footer-info">
+                <p>Todos os direitos reservados à Estética Glamour. Desenvolvido por Rhayssa.</p>
+                <p class="footer-address"> Rua Sofia da Costa Leite, 136 - Sete Lagoas - MG</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/esteticaglamour" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5531999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/esteticaglamour" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+
+        document.addEventListener('DOMContentLoaded', () => {
+    // Scroll suave para as seções
+    document.querySelectorAll('nav ul li a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - document.querySelector('.header').offsetHeight, // Ajusta para a altura do header fixo
+                    behavior: 'smooth'
+                });
+
+                // Remove 'active' de todos e adiciona ao clicado
+                document.querySelectorAll('nav ul li a').forEach(item => item.classList.remove('active'));
+                this.classList.add('active');
+            }
+        });
+    });
+
+
+    // Verifica a preferência do usuário ou se já tem um tema salvo
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme) {
+        body.classList.add(currentTheme);
+        if (currentTheme === 'dark-theme') {
+            themeToggle.querySelector('i').classList.replace('fa-moon', 'fa-sun');
+        }
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        // Se não houver tema salvo, verifica a preferência do sistema
+        body.classList.add('dark-theme');
+        themeToggle.querySelector('i').classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        if (body.classList.contains('dark-theme')) {
+            themeToggle.querySelector('i').classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'dark-theme');
+        } else {
+            themeToggle.querySelector('i').classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', 'light-theme');
+        }
+    });
+
+    // Adiciona classe 'active' à seção visível no scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('nav ul li a');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5 // A seção é considerada ativa quando 50% dela está visível
+    };
+
+    const sectionObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Remove 'active' de todos os links
+                navLinks.forEach(link => link.classList.remove('active'));
+
+                // Adiciona 'active' ao link correspondente à seção visível
+                const targetId = entry.target.id;
+                const activeLink = document.querySelector(`nav ul li a[href="#${targetId}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+            }
+        });
+    }, observerOptions);
+
+    sections.forEach(section => {
+        sectionObserver.observe(section);
+    });
+});
+    </script>
+</body>
+</html>
